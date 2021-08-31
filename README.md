@@ -71,5 +71,5 @@ $ node index.js med 1 2 3 4 5 6
 
 ```bash
 $ node index.js med 1 2 12 13 5 6
-> 7.5
+> 5.5
 ```
