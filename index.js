@@ -9,7 +9,8 @@ function calculate () {
                 console.log(`Sorry, the argument '${process.argv[i]}' is not a number, please try again`);
                 return;
             }
-            sum += parseInt('Sum:', process.argv[i]);
+            sum += parseInt(process.argv[i]);
+
         }
         console.log(sum);
     
@@ -22,7 +23,7 @@ function calculate () {
                 console.log(`Sorry, the argument '${process.argv[i]}' is not a number, please try again`);
                 return;
             }
-            sum += parseInt('Average:', process.argv[i]);
+            sum += parseInt(process.argv[i]);
         }
         console.log(sum / (process.argv.length - 3));
     
